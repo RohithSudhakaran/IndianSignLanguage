@@ -1,0 +1,9 @@
+# Core dependencies for Indian Sign Language Detector
+opencv-python==4.9.0.80         # For webcam access and image processing
+mediapipe==0.10.9               # For hand landmark detection
+tensorflow==2.15.0              # For training and running ML model
+numpy==1.26.4                   # For array operations
+
+# Optional (for better development workflow)
+jupyterlab==4.1.5               # To test code in Jupyter notebooks
+matplotlib==3.8.4               # For plotting dataset visualizations
