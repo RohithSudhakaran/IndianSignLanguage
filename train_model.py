@@ -11,7 +11,7 @@ import joblib
 # 📁 Dataset directory (where your gesture CSVs are stored)
 dataset_dir = "dataset"
 
-# 🏷️ Prepare data and labels
+# 🏷 Prepare data and labels
 data = []
 labels = []
 
@@ -63,10 +63,10 @@ model = Sequential([
     Dense(y_categorical.shape[1], activation='softmax')  # Output layer
 ])
 
-# ⚙️ Compile model
+# ⚙ Compile model
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-# 🏋️ Train model
+# 🏋 Train model
 history = model.fit(X_train, y_train, epochs=50, batch_size=32,
                     validation_data=(X_test, y_test))
 
