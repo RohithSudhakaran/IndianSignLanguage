@@ -1,6 +1,6 @@
 # 🖐 Indian Sign Language Detector
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Status: Stable](https://img.shields.io/badge/Status-Stable-brightgreen)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) ![Status: Stable](https://img.shields.io/badge/Status-Stable-brightgreen)
 
 **Indian Sign Language Detector** is a real-time hand gesture recognition system that translates Indian Sign Language (ISL) into text using a webcam. It combines **MediaPipe** for hand tracking and a **TensorFlow CNN** for gesture classification.
 
@@ -48,7 +48,7 @@ indian-sign-language/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/indian-sign-language.git
+   git clone https://github.com/RohithSudhakaran/indian-sign-language.git
    cd indian-sign-language
    ```
 
@@ -110,13 +110,7 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 👨‍💻 Author
 
 - **Rohith S**  
-  [GitHub](https://github.com/<your-username>)
+  [GitHub Profile](https://github.com/RohithSudhakaran)
