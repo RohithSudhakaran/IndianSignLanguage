@@ -1,9 +1,7 @@
 # Core dependencies for Indian Sign Language Detector
-opencv-python         # For webcam access and image processing
-mediapipe             # For hand landmark detection
-tensorflow             # For training and running ML model
-numpy                  # For array operations
-matplotlib             # For plotting dataset visualizations
-
-# Optional (for better development workflow)
-jupyterlab             # To test code in Jupyter notebooks
+opencv-python          # For webcam access and image processing
+mediapipe              # For hand landmark detection
+tensorflow              # For training and running the CNN model
+numpy                   # For array operations
+scikit-learn            # For label encoding and train/test splitting
+joblib                  # For saving and loading label encoders
